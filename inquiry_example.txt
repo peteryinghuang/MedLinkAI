@@ -1,0 +1,57 @@
+# Example prompt 1 (random)
+
+Basic Information
+Name: Madison Kim
+Age: 35
+Sex: Female
+Height in feet: 5.6
+Weight in pounds: 140
+Race: White
+
+Medical Information
+Major symptom: Persistent abdominal pain and bloating. Interested in understanding potential causes.
+Time span of the symptom: Ongoing for the past two months.
+Changes and development of the symptom: The pain has remained constant, but bloating has increased.
+Characteristics of the symptom: Pain is concentrated in the lower abdomen, bloating is widespread, and both occur throughout the day.
+Medication usage: No medication taken.
+Disease history: No prior diseases, surgeries, or injuries.
+Additional information: No additional information to report.
+
+
+# Example prompt 2 (Thallium poisoning)
+
+Name: Adam Johnson
+Age: 45
+Sex: Male
+Height in feet: 5.9
+Weight in pounds: 160
+Race: Hispanic
+
+Medical Information
+Major symptom: I've been experiencing persistent fatigue and weakness, so I'm seeking evaluation for this unexplained tiredness.
+Time span of the symptom: It's been bothering me for over the past three months now.
+Changes and development of the symptom: Initially, it was just a mild feeling of tiredness, but it's gotten progressively worse. Now, it's affecting my ability to focus at work and enjoy my usual activities.
+Characteristics of the symptom: The fatigue is relentless, no matter how much rest I get. Sometimes I also feel dizzy and short of breath, especially after I exert myself. Alongside the fatigue, I've been having intermittent headaches, which I've been attributing to stress from my job at the Chemistry lab.
+Medication usage: Occasionally, I'll take over-the-counter pain relievers for the headaches, but they don't seem to help with the fatigue.
+Disease history: No.
+Additional information: In my lab, I used Thallium recently.
+
+
+# Example prompt 3 (Appendicitis)
+
+Basic Information
+Name: Emily Rodriguez
+Age: 24
+Sex: Female
+Height in feet: 5.4
+Weight in pounds: 125
+Race: Asian-American
+
+Medical Information
+Major symptom: Persistent, sharp pain localized in the lower right abdomen, exacerbated by movement.
+Time span of the symptom: Symptoms have been ongoing for approximately six weeks.
+Changes and development of the symptom: Initially, the pain was sporadic and mild, but it has gradually intensified and become more constant over the past two weeks. There's also been an increase in the frequency of sharp, stabbing pains.
+Characteristics of the symptom: The pain is sharp and localized to the lower right abdomen, near McBurney's point. It tends to worsen with movement, such as walking or coughing. Occasionally experiences episodes of low-grade fever.
+Medication usage: Occasionally takes over-the-counter pain relievers for the discomfort but has found little relief.
+Disease history: No significant prior medical conditions, surgeries, or injuries.
+Additional information: Has noticed a slight decrease in appetite recently but attributes it to stress from work and personal life. No history of gastrointestinal disorders in the family.
