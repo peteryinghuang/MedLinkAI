@@ -160,9 +160,6 @@ async function getSummary() {
   try {
     // Fetch summary from the API
     var apiURLHead = "https://generativelanguage.googleapis.com";
-    if (proxy === true) {
-      apiURLHead = "https://api.genai.gd.edu.kg/google";
-    }
     const requestPayload = {
       contents: summaryRequest.contents,
       safetySettings: [
