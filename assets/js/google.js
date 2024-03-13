@@ -94,11 +94,11 @@ async function chatGoogle(userInput) {
 }
 
 function initChat() {
-  $('<div class="message loading new"><figure class="avatar"><img src="./assets/img/google_logo.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+  $('<div class="message loading new"><figure class="avatar"><img src="https://medlinkai.ly.gd.edu.kg/assets/img/google_logo.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
   updateScrollbar();
   setTimeout(function() {
     $('.message.loading').remove();
-    $('<div class="message new"><figure class="avatar"><img src="./assets/img/google_logo.png" /></figure>' + GoogleAIHistory.contents[1].parts[0].text + '</div>').appendTo($('.mCSB_container')).addClass('new');
+    $('<div class="message new"><figure class="avatar"><img src="https://medlinkai.ly.gd.edu.kg/assets/img/google_logo.png" /></figure>' + GoogleAIHistory.contents[1].parts[0].text + '</div>').appendTo($('.mCSB_container')).addClass('new');
     setDate();
     updateScrollbar();
     i++;
@@ -109,13 +109,13 @@ async function startMessage() {
   if (GoogleAIHistory.contents.length === 2 && userMessage === '') {
     initChat();
   } else {
-    $('<div class="message loading new"><figure class="avatar"><img src="./assets/img/google_logo.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+    $('<div class="message loading new"><figure class="avatar"><img src="https://medlinkai.ly.gd.edu.kg/assets/img/google_logo.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
     updateScrollbar();
     try {
       const generatedText = await chatGoogle(userMessage);
       
       $('.message.loading').remove();
-      $('<div class="message new"><figure class="avatar"><img src="./assets/img/google_logo.png" /></figure>' + generatedText + '</div>').appendTo($('.mCSB_container')).addClass('new');
+      $('<div class="message new"><figure class="avatar"><img src="https://medlinkai.ly.gd.edu.kg/assets/img/google_logo.png" /></figure>' + generatedText + '</div>').appendTo($('.mCSB_container')).addClass('new');
       setDate();
       updateScrollbar();
       i++;
