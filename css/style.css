@@ -155,6 +155,7 @@ banner
 }
 .banner-logo img{
 	display: inline-block;
+    max-width: 600px;
 }
 .banner-text{
 	color: #fff;
