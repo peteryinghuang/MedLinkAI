@@ -68,11 +68,11 @@ async function chatOpenAI(userInput) {
 }
 
 function initChat() {
-  $('<div class="message loading new"><figure class="avatar"><img src="../assets/img/openai_logo.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+  $('<div class="message loading new"><figure class="avatar"><img src="https://medlinkai.ly.gd.edu.kg/assets/img/openai_logo.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
   updateScrollbar();
   setTimeout(function() {
     $('.message.loading').remove();
-    $('<div class="message new"><figure class="avatar"><img src="../assets/img/openai_logo.png" /></figure>' + GPTHistory.messages[1].content + '</div>').appendTo($('.mCSB_container')).addClass('new');
+    $('<div class="message new"><figure class="avatar"><img src="https://medlinkai.ly.gd.edu.kg/assets/img/openai_logo.png" /></figure>' + GPTHistory.messages[1].content + '</div>').appendTo($('.mCSB_container')).addClass('new');
     setDate();
     updateScrollbar();
     i++;
@@ -83,13 +83,13 @@ async function startMessage() {
   if (GPTHistory.messages.length === 2 && userMessage === '') {
     initChat();
   } else {
-    $('<div class="message loading new"><figure class="avatar"><img src="../assets/img/openai_logo.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+    $('<div class="message loading new"><figure class="avatar"><img src="https://medlinkai.ly.gd.edu.kg/assets/img/openai_logo.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
     updateScrollbar();
     try {
       const generatedText = await chatOpenAI(userMessage);
       
       $('.message.loading').remove();
-      $('<div class="message new"><figure class="avatar"><img src="../assets/img/openai_logo.png" /></figure>' + generatedText + '</div>').appendTo($('.mCSB_container')).addClass('new');
+      $('<div class="message new"><figure class="avatar"><img src="https://medlinkai.ly.gd.edu.kg/assets/img/openai_logo.png" /></figure>' + generatedText + '</div>').appendTo($('.mCSB_container')).addClass('new');
       setDate();
       updateScrollbar();
       i++;
