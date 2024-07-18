@@ -44,7 +44,8 @@ async function chatOpenAI(userInput) {
       model: GPTVersion,
       messages: GPTHistory.messages
     };
-    var apiURL = 'https://api.openai.com/v1/chat/completions';
+    var apiURL = 'https://api.genai.gd.edu.kg/openai/v1/chat/completions';
+    //var apiURL = 'https://api.openai.com/v1/chat/completions';
     const response = await fetch(apiURL, {
       method: 'POST',
       headers: {
